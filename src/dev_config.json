@@ -1,0 +1,24 @@
+{
+	"root_url": "http://ape.localhost/",
+	// "db": {
+	// 	"host": "localhost",
+	// 	"user": "hotrod",
+	// 	"password": "",
+	// 	"connString": "postgres://hotrod:@localhost/pma"
+	// },
+	"db": {
+		"host": "*****",
+		"user": "*****",
+		"password": "*****",
+		"connString": "*****"
+	},
+	"redis": {
+		"sessionTimeout": 900,
+		"passwordResetTimeout": 300
+	},
+	"email": {
+		"user": "*****",
+		"password": "*****",
+		"from": "*****"
+	}
+}

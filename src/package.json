@@ -1,0 +1,53 @@
+{
+  "name": "ape",
+  "version": "0.0.1",
+  "description": "Ambulance Practicum Evaluator API",
+  "main": "server.js",
+  "scripts": {
+    "postinstall": "grunt heroku",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Russell Wilson <russell@romeo-whiskey.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.9.3",
+    "connect-redis": "^2.1.0",
+    "cookie-parser": "^1.3.3",
+    "cors": "^2.5.2",
+    "errorhandler": "^1.2.2",
+    "express": "^4.10.2",
+    "express-myconnection": "^1.0.4",
+    "express-session": "^1.9.1",
+    "getconfig": "^1.0.0",
+    "grunt": "1.0.1",
+    "grunt-cli": "1.2.0",
+    "grunt-jsinspect": "^1.2.0",
+    "gruntify-eslint": "^2.0.0",
+    "jsinspect": "^0.8.0",
+    "lodash": "^4.0.0",
+    "moment": "^2.10.6",
+    "morgan": "^1.5.0",
+    "node-uuid": "^1.4.2",
+    "nodemailer": "^1.3.0",
+    "nodemailer-express-handlebars": "2.0.0",
+    "pg": "^4.0.0",
+    "pg-bricks": "^0.3.4",
+    "postmark": "^1.2.1",
+    "premailer-api": "^1.0.3",
+    "redis": "^0.12.1",
+    "sql": "^0.42.0",
+    "sql-bricks-postgres": "^0.4.2"
+  },
+  "engines": {
+    "node": "4.0.0",
+    "npm": "3.9.3"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}

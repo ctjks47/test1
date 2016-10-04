@@ -1,0 +1,16 @@
+{
+	"root_url": "http://clients.romeo-whiskey.com/pma/ape/",
+	"db": {
+		"host": "*****",
+		"user": "*****",
+		"password": "******",
+		"connString": "******"
+	},
+	"redis": {
+		"sessionTimeout": 900,
+		"passwordResetTimeout": 86400
+	},
+	"email": {
+		"from": "******"
+	}
+}

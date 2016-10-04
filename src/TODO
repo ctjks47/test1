@@ -1,0 +1,11 @@
+- add Redis for server side session persistence
+- set last login time
+- add README.md
+- Look into automated tests
+- deal with failed authentications
+- destroy session if expired (30 mins of inactivity)
+- methodOverride()?
+- refactor routes to use Router object
+
+
+- look into node-runnr for scheduled tasks. maybe have run as separate instance
